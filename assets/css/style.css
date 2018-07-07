@@ -265,7 +265,7 @@ textarea{
         width: 250px;
         height: 175px;
     }
-    
+
     #footer-wrapper p {
         width: 100%;
     }
@@ -298,9 +298,8 @@ textarea{
     }
 
     #main-wrapper{
-        width:100%;
-        margin: 0;
-        margin-left: 0;
+          width: 96%;
+         margin: 0 auto;
         margin-top: 20px;
     }
 
