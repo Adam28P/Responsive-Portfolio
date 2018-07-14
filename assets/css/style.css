@@ -228,6 +228,8 @@ textarea{
     height:140px;
 }
 
+/* STYLING FOR SCREENS SMALLEER THAN 980px*/
+
 @media screen and (max-width: 980px) {
     #main-header{
         width:100%;
@@ -271,6 +273,7 @@ textarea{
     }
 }
 
+/* STYLING FOR SCREENS SMALLEER THAN 768px*/
 
 @media screen and (max-width: 768px) {
     #main-header{
@@ -309,7 +312,7 @@ textarea{
 }
 
 
-
+/* STYLING FOR SCREENS SMALLEER THAN 640px*/
 
 @media only screen and (max-width: 640px) {
     #header-wrapper {
