@@ -271,6 +271,7 @@ textarea{
     }
 }
 
+
 @media screen and (max-width: 768px) {
     #main-header{
         width:100%;
@@ -308,24 +309,47 @@ textarea{
     }
 }
 
-@media screen and (max-width: 640px) {
-    #main-header{
-        width:100%;
-        margin: 0;
+
+
+
+@media only screen and (max-width: 640px) {
+    #header-wrapper {
+      position: static;
+      margin-bottom: 20px;
+    }
+  
+    #main-container {
+      padding: 0;
+    }
+  
+    #main-wrapper {
+      padding-top: 0;
+    }
+
+    #main-header {
         background-color: #4aaaa5;
+      }
+  
+    #logo, #image-content img {
+      width: 100%;
     }
-
-    #main-header h1 a{
-        /* float: none; */
-        /* text-align: center; */
+  
+    #main-nav {
+      width: 100%;
+      margin: 15px 0;
+      text-align: center !important;
+      float:none;
     }
-
-    #main-nav{
-    clear: both;
-    background-color: white;
-    text-align: center;
-    width: 100%;
-    height: 35px;
+  
+    #main-nav ul {
+        float:none;
+        clear:both;
+      }
+   
+    #main-nav a {
+      width: 30%;
+      padding-left: 0;
+      margin-left: 0;
     }
+  }
 
-}
