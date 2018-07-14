@@ -254,11 +254,12 @@ textarea{
     }
 
     #main-wrapper{
-        width: 70%;
-        margin: 0;
-        margin-left: 30px;
+        width: 96%;
+        margin: 0 auto;
         margin-top: 20px;
     }
+
+    
 
     #image-portfolio-content img {
         width: 250px;
@@ -334,6 +335,7 @@ textarea{
         float: none;
         margin: 0 auto;
         width: 210px;
+        margin-top:-10px;
     }
 
       #main-header h1 a{
@@ -363,5 +365,10 @@ textarea{
       padding-left: 0;
       margin-left: 0;
     }
+
+    p{
+        clear:both;
+    }
+   
   }
 
